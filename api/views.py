@@ -14,6 +14,7 @@ def get_paragrahs(request):
 
 @api_view(['POST'])
 def add_paragraph(request):
+    print(request)
     new_paragraph = ParagraphSerializer(data=request.data)
     if new_paragraph.is_valid():
         new_paragraph.save()
