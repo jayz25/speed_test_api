@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-b-i8z9mf3rp2smi1*+%tqlo(y1auanq*wqbpe*lwxq)dk3nw!m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'speedtype-api.herokuapp.com']
 
 
 # Application definition
@@ -166,5 +166,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    'https://localhost:3000','https://127.0.0.1:3000', 'http://localhost:3000', 'http://127.0.0.1:3000', 'speedtype-api.herokuapp.com'
+    'https://localhost:3000','https://127.0.0.1:3000', 'http://localhost:3000', 'http://127.0.0.1:3000', 'https://speedtype-api.herokuapp.com'
 ]
