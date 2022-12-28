@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-b-i8z9mf3rp2smi1*+%tqlo(y1auanq*wqbpe*lwxq)dk3nw!m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'speedtype-api.herokuapp.com', 'speed-test-ten.vercel.app']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'web-production-3dee.up.railway.app', 'speed-test-ten.vercel.app']
 
 
 # Application definition
@@ -171,5 +171,5 @@ CORS_ALLOWED_ORIGINS = [
     'https://127.0.0.1:3000',
     'http://localhost:3000',
     'http://127.0.0.1:3000',
-    'https://speedtype-api.herokuapp.com'
+    'http://web-production-3dee.up.railway.app'
 ]
