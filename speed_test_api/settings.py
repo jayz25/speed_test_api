@@ -166,10 +166,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    'http://speed-test-ten.vercel.app',
-    'https://localhost:3000',
-    'https://127.0.0.1:3000',
-    'http://localhost:3000',
-    'http://127.0.0.1:3000',
-    'http://web-production-3dee.up.railway.app'
+    'https://speed-test-ten.vercel.app/',
+    'https://web-production-3dee.up.railway.app'
 ]
